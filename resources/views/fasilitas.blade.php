@@ -85,7 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
-                    <h1>Berita Terbaru</h1>
+                    <h1 class="mb-5">Fasilitas Sekolah</h1>
                 </div>
             </div>
             <div class="row">
@@ -97,10 +97,7 @@
                             <div>
                             <img src="{{ asset('/storage/fasilitass/'. $data->image) }}"  class="card-img-top">
                                 <h5 class="card-title">{{ $data->nama_fasilitas }}</h5>
-                    
-                                <p class="card-text"><small class="text-muted">Diubah pada tanggal: {{ $data->tanggal }}</small></p>
                             </div>
-                            <a href="#" class="btn btn-primary mt-auto">Detail</a>
                         </div>
                     </div>
                 </div>
